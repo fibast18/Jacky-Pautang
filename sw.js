@@ -1,4 +1,4 @@
-const CACHE='pautang-github-v1.31';
+const CACHE='pautang-github-v1.32';
 const FILES=['./','./index.html','./styles.css','./rose-theme.css','./app.js','./manifest.webmanifest','./pautang-icon.svg','./apple-touch-icon.png'];
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(FILES)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));

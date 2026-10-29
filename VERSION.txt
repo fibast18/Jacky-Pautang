@@ -1,0 +1,7 @@
+Pautang GitHub Pages Edition
+App Version: 1.32
+Release Date: 2026-10-29
+Baseline: v1.31 (cumulative)
+Financial Storage Key: pautang-github-data-v1
+Backup Format: pautang-backup / schema version 1
+Profile Storage Key: pautang-profile-v1

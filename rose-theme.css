@@ -136,3 +136,15 @@ nav button { font-size: .62rem; }
 .backup-choice p { margin-bottom: 14px; font-size: .8rem; }
 .backup-choice input[type=file] { margin-bottom: 10px; padding: 10px; font-size: .75rem; }
 .backup-choice button { width: 100%; }
+
+/* v1.32: make the restored home-screen greeting tappable without changing its appearance. */
+.greeting-button {
+  display: flex; width: calc(100% - 4px); padding: 0; border: 0;
+  background: transparent; color: var(--ink); text-align: left;
+  cursor: pointer;
+}
+.greeting-button:focus-visible {
+  outline: 2px solid var(--green); outline-offset: 5px; border-radius: 12px;
+}
+.greeting-button div { min-width: 0; }
+.greeting-button h2 { overflow-wrap: anywhere; }
