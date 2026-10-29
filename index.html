@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#8f3f6d"><meta name="description" content="Offline mobile lending and finance ledger">
+  <meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="default"><meta name="apple-mobile-web-app-title" content="Pautang">
+  <link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="pautang-icon.svg" type="image/svg+xml"><link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+  <title>Pautang</title><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="rose-theme.css">
+</head>
+<body>
+  <div id="toast" class="toast" role="status"></div>
+  <div id="sync-status" class="sync-status hidden" role="status"></div>
+  <div id="app" class="app">
+    <header><div><p class="eyebrow">PAUTANG</p><h1 id="page-title">Overview</h1></div><div class="header-actions"><button class="icon-button hidden" id="install" aria-label="Install Pautang app">⇩</button><button class="icon-button" id="backup" aria-label="Export or import backup">⇅</button></div></header>
+    <main id="content" class="content"></main>
+    <footer class="app-footer"><span>Developed by: Engr. Rico J. Pono</span><small>Version 1.31 · GitHub Edition</small></footer>
+    <nav aria-label="Main navigation">
+      <button data-page="dashboard" class="active"><span>⌂</span>Home</button>
+      <button data-page="clients"><span>♙</span>Clients</button>
+      <button data-page="loans"><span>₱</span>Loans</button>
+      <button data-page="cash"><span>⇄</span>Cash</button>
+    </nav>
+  </div>
+  <dialog id="modal"><form method="dialog" class="modal-head"><button value="cancel" aria-label="Close">×</button></form><div id="modal-body"></div></dialog>
+  <script type="module" src="app.js"></script>
+</body></html>

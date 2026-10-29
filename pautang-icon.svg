@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Pautang">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#bd6c99"/><stop offset="1" stop-color="#7c3560"/></linearGradient></defs>
+  <rect width="512" height="512" rx="120" fill="#fff5f8"/>
+  <path d="M256 68c104 0 188 84 188 188s-84 188-188 188S68 360 68 256 152 68 256 68Z" fill="url(#g)"/>
+  <path d="M293 142h-81v228h38v-82h43c48 0 79-28 79-73 0-45-31-73-79-73Zm-43 35h39c28 0 44 14 44 38 0 25-16 39-44 39h-39v-77Z" fill="#fff"/>
+  <path d="M192 189h143M192 221h143" stroke="#fff" stroke-width="18" stroke-linecap="round" opacity=".92"/>
+</svg>
